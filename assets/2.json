@@ -1,0 +1,19 @@
+{
+  "name": "The Thing 1982",
+  "symbol": "",
+  "image": "2.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "Deg652mr2qo313YydPUeqDEhKR5sh1huogs8zYKoQKZS",
+        "share": 100
+      }
+    ]
+  }
+}

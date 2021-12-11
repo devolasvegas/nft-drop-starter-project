@@ -1,0 +1,19 @@
+{
+  "name": "Alien 1979",
+  "symbol": "",
+  "image": "1.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "Deg652mr2qo313YydPUeqDEhKR5sh1huogs8zYKoQKZS",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "program": {
+    "uuid": "AeQfGr",
+    "config": "AeQfGrVH6cbjR2kVDtSRasB5caJX8nNyu165mppAYDve"
+  },
+  "items": {
+    "0": {
+      "link": "https://arweave.net/iPyEd6r4-rmi61p-ugYmZQfqlRZU9TVFDneIMu2qoGc",
+      "name": "Predator 1987",
+      "onChain": true
+    },
+    "1": {
+      "link": "https://arweave.net/QV7Gr-yzIf-Y2eMul8NzAvsFY4UJ6jl9wfYb4c7urB4",
+      "name": "Alien 1979",
+      "onChain": true
+    },
+    "2": {
+      "link": "https://arweave.net/8xeMEWp3jXmM_TY9upPtnnv0Ot-_3QX1p3bG-hsilvU",
+      "name": "The Thing 1982",
+      "onChain": true
+    }
+  },
+  "env": "devnet",
+  "cacheName": "temp",
+  "authority": "Deg652mr2qo313YydPUeqDEhKR5sh1huogs8zYKoQKZS"
+}
