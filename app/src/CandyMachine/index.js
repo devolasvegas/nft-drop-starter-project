@@ -27,10 +27,6 @@ const MAX_CREATOR_LEN = 32 + 1 + 1;
 const CandyMachine = ({ walletAddress }) => {
   const [machineStats, setMachineStats] = useState(null);
 
-  useEffect(() => {
-    getCandyMachineState();
-  });
-
   const getProvider = () => {
     const rpcHost = process.env.REACT_APP_SOLANA_RPC_HOST;
     // Create a new connection object
@@ -91,6 +87,10 @@ const CandyMachine = ({ walletAddress }) => {
       goLiveDateTimeString,
     });
   };
+
+  useEffect(() => {
+    getCandyMachineState();
+  }, []);
 
   // Actions
   const fetchHashTable = async (hash, metadataEnabled) => {
