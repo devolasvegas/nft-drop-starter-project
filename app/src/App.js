@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import CandyMachine from "./CandyMachine";
 import "./App.css";
 import twitterLogo from "./assets/twitter-logo.svg";
 
@@ -73,6 +74,8 @@ const App = () => {
           {/* Add the condition to show this only if we don't have a wallet address */}
           {!walletAddress && renderNotConnectedContainer()}
         </div>
+        {/* Check for wallet address and render cancymachine, passing in wallet address */}
+        {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
